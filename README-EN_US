@@ -1,0 +1,56 @@
+# 🇺🇸 README in English
+
+```markdown
+# timer
+
+A simple timer application built with HTML, CSS and JavaScript.  
+The project serves as a hands-on front-end exercise, demonstrating real-time time handling in the browser.
+
+## 📄 Overview
+
+timer lets the user specify a duration (e.g. in seconds or minutes), then start a countdown. At the end of the countdown, the timer may trigger a notification or alert (depending on implementation). The whole application runs client-side, no external dependencies required.
+
+## 🛠 Technologies Used
+
+- **HTML5** – page structure and user controls.  
+- **CSS3** – styling and layout.  
+- **JavaScript** – logic for timing, event handling, and real-time UI updates.
+
+## 🚀 How to Run
+
+1. Clone the repository:
+
+   git clone https://github.com/SWtheaven/timer.git
+
+2. Navigate into the project folder:
+
+cd timer
+
+3. Open index.html in your browser — everything runs client-side, no extra setup needed.
+
+
+4. Set the desired duration, click “Start” (or equivalent), and observe the countdown.
+
+📁 Project Structure
+
+timer/
+├── index.html       # Page structure
+├── style.css        # Visual styles
+├── scripts.js       # Timer logic
+└── assets/          # (optional) static resources
+
+✨ Future Improvements / Possible Features
+
+-Pause / resume functionality.
+
+-Support for different time formats (minutes, hours).
+
+-Sound or visual alert when timer ends.
+
+-More polished and responsive UI.
+
+-Stopwatch mode (count up), in addition to countdown.
+
+📄 License
+This project is released under the MIT License — feel free to use, modify, or distribute it.
+
